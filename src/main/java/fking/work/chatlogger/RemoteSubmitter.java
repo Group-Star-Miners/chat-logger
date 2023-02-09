@@ -26,7 +26,7 @@ public class RemoteSubmitter {
 
     private static final MediaType APPLICATION_JSON = MediaType.parse("application/json");
     private static final int MAX_ENTRIES_PER_TICK = 30;
-    private static final int TICK_INTERVAL = 5;
+    private static final int TICK_INTERVAL = 1;
 
     private static final CircuitBreaker<Object> BREAKER = new CircuitBreaker<>()
             .handle(IOException.class)

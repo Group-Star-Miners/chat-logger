@@ -29,7 +29,7 @@ import okhttp3.OkHttpClient;
 import org.slf4j.LoggerFactory;
 
 @Slf4j
-@PluginDescriptor(name = "Chat Logger", description = "Logs chat messages to a file")
+@PluginDescriptor(name = "Chat Logger (modified)", description = "Logs chat messages to a file")
 public class ChatLoggerPlugin extends Plugin {
 
     private static final String BASE_DIRECTORY = System.getProperty("user.home") + "/.runelite/chatlogs/";
